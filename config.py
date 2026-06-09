@@ -1,44 +1,53 @@
 """
-⚙️ Bot Configuration — Fill in your details here
+⚙️ Bot Configuration
 """
 
 class Config:
     # ══════════════════════════════════════════════
-    # 🤖 BOT SETTINGS — REQUIRED
+    # 🤖 BOT SETTINGS
     # ══════════════════════════════════════════════
 
-    # Paste the token you got from @BotFather
-    BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
-
-    # Your bot's username (without @)
-    BOT_USERNAME = "YourBotUsername"
+    BOT_TOKEN    = "8861320972:AAERbagkoRLkKGW719aCtni1w48J2g08Yxc"
+    BOT_USERNAME = "SubscribersBoost_bot"  # ← Sirf yeh ek cheez change karo (@ke bغیر)
 
     # ══════════════════════════════════════════════
     # 👑 ADMIN SETTINGS
     # ══════════════════════════════════════════════
 
-    # Your Telegram User ID (get it from @userinfobot)
-    # You can add multiple admin IDs separated by commas
-    ADMIN_IDS = [123456789]  # <-- Put your ID here
-
-    # Admin username (without @)
-    ADMIN_USERNAME = "YourAdminUsername"
+    ADMIN_IDS      = [6615094487]
+    ADMIN_USERNAME = "sajawalbudhana3"
 
     # ══════════════════════════════════════════════
     # 💰 PAYMENT SETTINGS
     # ══════════════════════════════════════════════
 
-    EASYPAISA_NUM = "0300-1234567"
-    JAZZCASH_NUM  = "0300-1234567"
-    BANK_ACCOUNT  = "HBL: 1234-5678-9012"
+    EASYPAISA_NUM  = "0307-8683718"
+    EASYPAISA_NAME = "Muhammad Younas"
+    JAZZCASH_NUM   = "0307-8683718"
+    JAZZCASH_NAME  = "Muhammad Younas"
+    BANK_ACCOUNT   = "Bank Name: Account Number"
+
+    USDT_TRC20 = "TTWYTUp1VEbTkQJcwnmujwsfKJ6Ud3Y3au"
+
+    # ══════════════════════════════════════════════
+    # 💱 DOLLAR RATE (1 USD = ? PKR)
+    # ══════════════════════════════════════════════
+
+    USD_TO_PKR = 280
 
     # ══════════════════════════════════════════════
     # 🎁 REWARD SETTINGS
     # ══════════════════════════════════════════════
 
-    # Free subscribers awarded per referral
     REFERRAL_REWARD = 2
+    TASK_REWARD     = 5
+    TASK_REQUIRED   = 2
 
-    # Task reward: invite TASK_REQUIRED people → get TASK_REWARD free subs
-    TASK_REWARD    = 5
-    TASK_REQUIRED  = 10
+    # ══════════════════════════════════════════════
+    # 📢 TASK CHANNELS
+    # ══════════════════════════════════════════════
+
+    TASK_CHANNELS = [
+        {"id": -1003101064479, "username": "sajawalbudhana5", "name": "Sajawal Budhana"},
+        {"id": -1003755078602, "username": "fastproxy000",    "name": "Fast Proxy"},
+    ]
